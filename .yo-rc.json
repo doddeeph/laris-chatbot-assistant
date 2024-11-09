@@ -1,1 +1,33 @@
-{"generator-jhipster":{"applicationType":"microservice","gitCompany":"","baseName":"LarisChatbotAssistant","packageName":"id.laris.assistant","packageFolder":"id/laris/assistant","serverPort":8080,"serviceDiscoveryType":false,"authenticationType":"jwt","cacheProvider":"no","enableHibernateCache":false,"websocket":false,"databaseType":"sql","devDatabaseType":"postgresql","prodDatabaseType":"postgresql","searchEngine":false,"enableSwaggerCodegen":false,"messageBroker":false,"buildTool":"maven","useSass":true,"clientPackageManager":"npm","testFrameworks":[],"enableTranslation":true,"nativeLanguage":"en","languages":["in","en"],"clientFramework":"angularX","jhiPrefix":"jhi","withAdminUi":true,"blueprints":[]},"git-provider":"GitHub","git-company":"doddeeph","repository-name":"laris-chatbot-assistant"}
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "larisChatbotAssistant",
+    "buildTool": "maven",
+    "cacheProvider": null,
+    "creationTimestamp": 1731164696961,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": null,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.7.3",
+    "jwtSecretKey": "M2M4ZWM2ZDgyMDJlNzQzYzRiMzVjM2I1OGZkODVjYTk3NjE3NzFiYWI0OTM4NDliZDEzZmU5NmVlMjA5MzVlNzhlN2JiNjAyYmNmM2MzZDQzNTI1M2VmZWQwMGRlODUxYzU3Y2UwYWQ0MzJmYjQxM2U1NmNkNGY3NzEyMmZiYTA=",
+    "languages": ["en", "id"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "id.laris.assistant",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": 8081,
+    "serverSideOptions": [],
+    "serviceDiscoveryType": "no",
+    "skipClient": true,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "websocket": false
+  }
+}

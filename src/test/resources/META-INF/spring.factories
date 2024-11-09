@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = id.laris.assistant.\
+    config.SqlTestContainersSpringContextCustomizerFactory
