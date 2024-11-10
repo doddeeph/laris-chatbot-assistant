@@ -47,7 +47,7 @@ spring:
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/larisChatbotAssistant
     username: larisChatbotAssistant
-    password: password
+    password: larisbot!@#$%
   thymeleaf:
     cache: false
 

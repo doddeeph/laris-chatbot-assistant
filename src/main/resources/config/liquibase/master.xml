@@ -11,7 +11,13 @@
     <property name="datetimeType" value="datetime" dbms="postgresql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241110100147_added_entity_Movies.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241110100148_added_entity_Users.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241110100149_added_entity_Tags.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241110100150_added_entity_Ratings.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20241110100149_added_entity_constraints_Tags.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241110100150_added_entity_constraints_Ratings.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

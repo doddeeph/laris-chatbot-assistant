@@ -842,7 +842,7 @@
             </activation>
             <properties>
                 <!-- default Spring profiles -->
-                <liquibase-plugin.password>password</liquibase-plugin.password>
+                <liquibase-plugin.password>larisbot!@#$%</liquibase-plugin.password>
                 <liquibase-plugin.url>jdbc:postgresql://localhost:5432/larisChatbotAssistant</liquibase-plugin.url>
                 <liquibase-plugin.username>larisChatbotAssistant</liquibase-plugin.username>
                 <profile.test>testdev</profile.test>
@@ -945,7 +945,7 @@
             <id>prod</id>
             <properties>
                 <!-- default Spring profiles -->
-                <liquibase-plugin.password>password</liquibase-plugin.password>
+                <liquibase-plugin.password>larisbot!@#$%</liquibase-plugin.password>
                 <liquibase-plugin.url>jdbc:postgresql://localhost:5432/larisChatbotAssistant</liquibase-plugin.url>
                 <liquibase-plugin.username>larisChatbotAssistant</liquibase-plugin.username>
                 <profile.test>testprod</profile.test>

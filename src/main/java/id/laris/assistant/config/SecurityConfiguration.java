@@ -53,6 +53,7 @@ public class SecurityConfiguration {
                 // prettier-ignore
                 authz
                     .pathMatchers("/api/authenticate").permitAll()
+                    .pathMatchers("/api/public/**").permitAll()
                     .pathMatchers("/api/admin/**").hasAuthority(AuthoritiesConstants.ADMIN)
                     .pathMatchers("/api/**").authenticated()
                     .pathMatchers("/v3/api-docs/**").hasAuthority(AuthoritiesConstants.ADMIN)

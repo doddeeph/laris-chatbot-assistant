@@ -1,0 +1,34 @@
+entity Movies {
+  id Long required
+  title String required
+  genres String required
+}
+
+entity Users {
+  id Long required
+  firstName String required
+  lastName String required
+}
+
+entity Tags {
+  id Long required
+  tag String required
+  timestamp Long required
+}
+
+entity Ratings {
+  id Long required
+  rating Double required
+  timestamp Long required
+}
+
+relationship ManyToOne {
+  Tags{users(id)} to Users
+  Tags{movies(id)} to Movies
+  Ratings{users(id)} to Users
+  Ratings{movies(id)} to Movies
+}
+
+dto * with mapstruct
+service * with serviceImpl
+paginate * with pagination
